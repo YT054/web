@@ -1,0 +1,81 @@
+/* Linking the stylesheet in index3-2.html */
+/* In index3-2.html:
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+*/
+
+/* Body styling */
+body {
+    font-family: "Times New Roman"; /* Change font to Times New Roman */
+    background-color: #E36F85; /* Background color to 海棠红 */
+    color: #003C75; /* Text color to 绀宇色 */
+    margin: 0; /* Keep margin settings */
+    padding: 20px; /* Keep padding settings */
+}
+
+/* h1 styling */
+h1 {
+    color: #AFD0F2; /* Title color to 碧落色 */
+    text-align: center; /* Keep centered alignment */
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff; /* Keep background color */
+    padding: 15px; /* Form padding */
+    border-radius: 6px; /* Form corners rounded with 6px radius */
+    max-width: 450px; /* Max width for the form */
+    margin: 0 auto; /* Center the form */
+}
+
+/* Paragraphs inside the form */
+form p {
+    font-style: italic; /* Change to italic instead of bold */
+    margin-top: 10px; /* Keep margin setting */
+}
+
+/* Input and select styling */
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 80%; /* Set width to 80% */
+    padding: 10px; /* Inner padding */
+    margin-top: 10px; /* Top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    border: 1px solid #ccc; /* Keep border color */
+    border-radius: 3px; /* Round corners with 3px radius */
+}
+
+/* Radio and checkbox styling */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px; /* Increase right margin */
+}
+
+/* Submit and reset buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px; /* Keep padding */
+    margin-right: 10px; /* Keep right margin */
+    border-radius: 4px; /* Keep border-radius */
+    cursor: pointer; /* Keep pointer on hover */
+    color: #fff; /* Keep text color white */
+}
+
+/* Submit button colors */
+input[type="submit"] {
+    background-color: #FEC13F; /* 栀子色 when not hovered */
+}
+input[type="submit"]:hover {
+    background-color: #FF7710; /* 爱马仕橙 on hover */
+}
+
+/* Reset button colors */
+input[type="reset"] {
+    background-color: #84BB9F; /* 若竹色 when not hovered */
+}
+input[type="reset"]:hover {
+    background-color: #018081; /* 马尔斯绿 on hover */
+}
